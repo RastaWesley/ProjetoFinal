@@ -1,6 +1,6 @@
 # Curso de Programação de Jogos
 
-Este é um projeto fictício de um site para um curso de programação de jogos, desenvolvido utilizando HTML, CSS e Bootstrap. O site inclui várias páginas relacionadas a diferentes cursos, eventos e contatos.
+Este é um projeto fictício de um site desenvolvido para projeto final do curso de frontend da Digicad e Escola da Nuvem fiz com o tema de um curso de programação de jogos, desenvolvido utilizando HTML, CSS e Bootstrap. O site inclui várias páginas relacionadas a diferentes cursos, eventos e contatos.
 
 ## Estrutura do Projeto
 
