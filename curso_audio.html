@@ -28,8 +28,18 @@
     <section class="container">
         <p>
             Neste curso, você aprenderá a criar e integrar trilhas sonoras, efeitos sonoros e diálogos em jogos. 
-            Estudaremos técnicas de áudio interativo para aprimorar a experiência dos jogadores.
+            Entenderemos técnicas de áudio interativo para aprimorar a experiência dos jogadores. 
+            Você terá a oportunidade de trabalhar em projetos práticos, desenvolvendo habilidades em ferramentas de áudio de ponta.
         </p>
+        <p><strong>Conteúdo do Curso:</strong></p>
+        <ul>
+            <li>Introdução ao Áudio para Jogos</li>
+            <li>Criação de Trilha Sonora</li>
+            <li>Design de Efeitos Sonoros</li>
+            <li>Gravação de Diálogos</li>
+            <li>Integração de Áudio em Engines de Jogos</li>
+            <li>Técnicas de Áudio Interativo</li>
+        </ul>
         <p><strong>Tecnologias Usadas:</strong></p>
         <ul>
             <li>Ableton Live</li>
@@ -38,7 +48,14 @@
             <li>Wwise</li>
             <li>Audacity</li>
         </ul>
+        <figure class="text-center">
+            <img src="img/FMOD.png" alt="Exemplo de Código no FMOD" class="img-fluid" style="max-width: 500px;">
+            <figcaption>Exemplo de código usado no FMOD para design de áudio interativo.</figcaption>
+        </figure>
     </section>
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>© 2024 Curso de Programação de Jogos. Todos os direitos reservados.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -51,6 +68,10 @@
             document.querySelectorAll('.card').forEach(function(card) {
                 card.classList.toggle('bg-secondary');
                 card.classList.toggle('text-white');
+            });
+            document.querySelectorAll('footer').forEach(function(footer) {
+                footer.classList.toggle('bg-light');
+                footer.classList.toggle('bg-dark');
             });
             document.querySelectorAll('.navbar').forEach(function(navbar) {
                 navbar.classList.toggle('navbar-dark');

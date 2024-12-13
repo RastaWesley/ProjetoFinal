@@ -41,6 +41,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+        <footer class="bg-light text-center py-3"> <p>&copy; 2024 Academia de Jogos. Todos os direitos reservados.</p> </footer>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -60,6 +61,10 @@
                 navbar.classList.toggle('bg-dark');
                 navbar.classList.toggle('navbar-light');
                 navbar.classList.toggle('bg-light');
+            });
+            document.querySelectorAll('footer').forEach(function(footer) {
+                footer.classList.toggle('bg-light');
+                footer.classList.toggle('bg-dark');
             });
         });
     </script>

@@ -27,9 +27,18 @@
     </header>
     <section class="container">
         <p>
-            Neste curso, você aprenderá os fundamentos do design de jogos, incluindo criação de personagens, cenários, 
-            interface de usuário e experiência de jogador. Exploraremos conceitos teóricos e práticos para criar designs impactantes.
+            Neste curso, você aprenderá os fundamentos do design de jogos, incluindo criação de personagens, cenários, interface de usuário e experiência de jogador. 
+            Exploraremos conceitos teóricos e práticos para criar designs impactantes, além de desenvolver habilidades em ferramentas de design de ponta.
         </p>
+        <p><strong>Conteúdo do Curso:</strong></p>
+        <ul>
+            <li>Fundamentos de Design de Jogos</li>
+            <li>Criação de Personagens e Cenários</li>
+            <li>Design de Interface e Experiência do Usuário</li>
+            <li>Uso de Ferramentas como Photoshop e Illustrator</li>
+            <li>Introdução ao 3D com Blender</li>
+            <li>Integração com Unity e Unreal Engine</li>
+        </ul>
         <p><strong>Tecnologias Usadas:</strong></p>
         <ul>
             <li>Photoshop</li>
@@ -38,7 +47,14 @@
             <li>Unity</li>
             <li>Unreal Engine</li>
         </ul>
+        <figure class="text-center">
+            <img src="img/blender.png" alt="Exemplo de Código no Blender" class="img-fluid" style="max-width: 500px;">
+            <figcaption>Exemplo de código usado no Blender para criação de objetos 3D.</figcaption>
+        </figure>
     </section>
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>© 2024 Curso de Programação de Jogos. Todos os direitos reservados.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -52,11 +68,19 @@
                 card.classList.toggle('bg-secondary');
                 card.classList.toggle('text-white');
             });
+            document.querySelector('footer').classList.toggle('bg-dark');
+            document.querySelector('footer').classList.toggle('bg-light');
+            document.querySelector('footer').classList.toggle('text-white');
+            document.querySelector('footer').classList.toggle('text-dark');
             document.querySelectorAll('.navbar').forEach(function(navbar) {
                 navbar.classList.toggle('navbar-dark');
                 navbar.classList.toggle('bg-dark');
                 navbar.classList.toggle('navbar-light');
                 navbar.classList.toggle('bg-light');
+            });
+            document.querySelectorAll('footer').forEach(function(footer) {
+                footer.classList.toggle('bg-light');
+                footer.classList.toggle('bg-dark');
             });
         });
     </script>

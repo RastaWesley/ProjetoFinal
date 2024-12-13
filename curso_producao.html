@@ -28,8 +28,19 @@
     <section class="container">
         <p>
             Neste curso, você aprenderá a gerenciar todo o ciclo de vida do desenvolvimento de um jogo, desde a concepção da ideia até o lançamento. 
-            Serão abordadas técnicas de gerenciamento de projetos, metodologias ágeis e gestão de equipes.
+            Serão abordadas técnicas de gerenciamento de projetos, metodologias ágeis e gestão de equipes. Você terá a oportunidade de participar de workshops e simulações práticas, 
+            aplicando os conceitos em situações reais de produção de jogos.
         </p>
+        <p><strong>Conteúdo do Curso:</strong></p>
+        <ul>
+            <li>Introdução à Produção de Jogos</li>
+            <li>Metodologias Ágeis (Scrum, Kanban)</li>
+            <li>Gerenciamento de Projetos com JIRA e Trello</li>
+            <li>Planejamento e Cronogramas</li>
+            <li>Gestão de Equipes e Colaboração</li>
+            <li>Testes e Qualidade</li>
+            <li>Marketing e Lançamento de Jogos</li>
+        </ul>
         <p><strong>Tecnologias Usadas:</strong></p>
         <ul>
             <li>JIRA</li>
@@ -38,7 +49,14 @@
             <li>Kanban</li>
             <li>Unity</li>
         </ul>
+        <figure class="text-center">
+            <img src="img/Jira.png" alt="Exemplo de Código no JIRA" class="img-fluid" style="max-width: 500px;">
+            <figcaption>Exemplo de configuração de um fluxo de trabalho no JIRA.</figcaption>
+        </figure>
     </section>
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>© 2024 Curso de Programação de Jogos. Todos os direitos reservados.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -51,6 +69,10 @@
             document.querySelectorAll('.card').forEach(function(card) {
                 card.classList.toggle('bg-secondary');
                 card.classList.toggle('text-white');
+            });
+            document.querySelectorAll('footer').forEach(function(footer) {
+                footer.classList.toggle('bg-light');
+                footer.classList.toggle('bg-dark');
             });
             document.querySelectorAll('.navbar').forEach(function(navbar) {
                 navbar.classList.toggle('navbar-dark');

@@ -28,8 +28,17 @@
     <section class="container">
         <p>
             Neste curso, você aprenderá a criar jogos do zero usando diversas linguagens de programação e engines. 
-            Abordaremos desde a lógica de programação até técnicas avançadas de desenvolvimento.
+            Abordaremos desde a lógica de programação até técnicas avançadas de desenvolvimento. Você terá a oportunidade de trabalhar em projetos práticos, desenvolvendo jogos completos ao longo do curso.
         </p>
+        <p><strong>Conteúdo do Curso:</strong></p>
+        <ul>
+            <li>Introdução à Programação de Jogos</li>
+            <li>Conceitos de Design e Mecânicas de Jogos</li>
+            <li>Desenvolvimento com Unity e Unreal Engine</li>
+            <li>Programação em C#, C++ e JavaScript</li>
+            <li>Implementação de Inteligência Artificial</li>
+            <li>Integração de Gráficos e Animações</li>
+        </ul>
         <p><strong>Tecnologias Usadas:</strong></p>
         <ul>
             <li>Unity</li>
@@ -38,7 +47,14 @@
             <li>C++</li>
             <li>JavaScript</li>
         </ul>
+        <figure class="text-center">
+            <img src="img/codigo.png" alt="Exemplo de Código em C#" class="img-fluid" style="max-width: 500px;">
+            <figcaption>Exemplo de código em C# usado no desenvolvimento de jogos com Unity.</figcaption>
+        </figure>
     </section>
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>© 2024 Curso de Programação de Jogos. Todos os direitos reservados.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -57,6 +73,10 @@
                 navbar.classList.toggle('bg-dark');
                 navbar.classList.toggle('navbar-light');
                 navbar.classList.toggle('bg-light');
+            });
+            document.querySelectorAll('footer').forEach(function(footer) {
+                footer.classList.toggle('bg-light');
+                footer.classList.toggle('bg-dark');
             });
         });
     </script>
